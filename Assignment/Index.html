@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card Design</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            min-height: 100vh;
+            background-color: #f0f0f0;
+        }
+
+        .card-main {
+            gap: 20px;
+            
+            border: 1px solid black;
+            padding: 50px;
+
+        }
+        .sub-card{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid white;
+            background-color: #ede7e7;
+            padding: 50px;
+        }
+
+        .card {
+            width: 300px;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            background-color: white;
+            text-align: center;
+        }
+
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .card h1 {
+            font-size: 1.5em;
+            margin: 10px 0;
+        }
+
+        .card p {
+            font-size: 0.9em;
+            padding: 0 15px;
+            color: #555;
+        }
+
+        .card button {
+            background-color: #94a0bc;
+            color: rgb(49, 13, 211);
+            border: none;
+            padding: 10px 20px;
+            margin: 15px 0;
+            cursor: pointer;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        .card button:hover {
+            background-color: #45a049;
+        }
+
+.Last {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px; 
+  background-color:  #ede7e7;
+}
+       
+    </style>
+</head>
+
+<body>
+
+    <div class="card-main">
+        <div class="sub-card">
+            <div class="card">
+                <img src="mt-everest.jpg" alt="Mt. Everest">
+                <h1>A Starry Night</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, deserunt.</p>
+                <button>Explore</button>
+            </div>
+
+            <div class="card">
+                <img src="Misty.webp" alt="Mt. Everest">
+                <h1>Misty Morning</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, deserunt.</p>
+                <button>Explore</button>
+            </div>
+
+            <div class="card">
+                <img src="sun.jpg" alt="Mt. Everest">
+                <h1>Utah Sunsets</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, deserunt.</p>
+                <button>Explore</button>
+            </div>
+        </div>
+
+       <div class="Last">
+        <p>
+        Author:Prabin</p>
+       </div>
+
+    </div>
+
+
+</body>
+
+</html>
